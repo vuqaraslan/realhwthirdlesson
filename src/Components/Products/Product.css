@@ -1,0 +1,47 @@
+.base-design{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    text-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.product-design{
+    height: 70vh;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.product-design:hover{
+    cursor: pointer;
+    box-shadow: 0 0 22px 6px springgreen;
+}
+
+.img-design{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.expired-img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: -35px;
+}
